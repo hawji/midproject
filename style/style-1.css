@@ -1,0 +1,320 @@
+
+  
+  html {
+    scroll-behavior: smooth;
+    
+  }
+  
+  
+  a{text-decoration: none;color: white;}
+
+  body,p{margin: 0;}
+
+  .navbar {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    background-color: #FF376E;
+    padding: 8px 20px;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.nav_menu li{margin:0 40px;}
+
+.nav_menu{
+    display: flex;
+    justify-content: center; 
+    list-style: none;
+    margin: 0 30 0 -100px;
+    padding: 0 0 0 100px;
+    text-decoration: none;
+    font-family: Pretendard-Bold;
+
+}
+
+.nav_menu {
+  list-style: none;
+  padding: 0;
+}
+
+.nav_menu li {
+  display: inline-block; /* 혹은 inline-flex, flex 등 블록 레벨이 아닌 인라인 레벨 요소로 설정 */
+  margin-right: 20px; /* 요소간 간격 */
+  transition: transform 0.3s ease, margin-top 0.3s ease; /* 변환 효과를 부드럽게 */
+  vertical-align: top; /* align items to the top */
+}
+
+
+.nav_menu a {
+  text-decoration: none; /* 링크 밑줄 제거 */
+  color: white; /* 링크 색상 */
+  padding: 10px 20px; /* 클릭 영역 확장 */
+  display: block; /* 클릭 가능한 영역을 li 전체로 확장 */
+}
+
+.nav_menu li:hover {
+  transform: scale(1.1); /* 마우스 오버 시 요소를 10% 확대 */
+  margin-top: -5px; /* 마우스 오버 시 상단으로 10px 이동 */
+}
+
+#whi {scroll-margin-top: 80px;}
+#w2 {scroll-margin-top: 80px;}
+#w3 {scroll-margin-top: 80px;}
+#w4 {scroll-margin-top: 80px;}
+#w5 {scroll-margin-top: 80px;}
+#w6 {scroll-margin-top:80px;}
+
+#thunder{left:50% ;
+        position: absolute;
+        transform: translateX(-50%);
+        margin-top:-150px;
+        z-index: 1;}
+
+.titleimage {
+    position: absolute;
+    top: 300; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    margin-top: -170px; 
+}
+
+.first{padding-top: 300px;}
+
+.sector1 {
+          width: min-content;
+          white-space: nowrap;
+          height: auto;
+          text-align: center;
+          margin: auto;
+          display: flex;
+        justify-content: center;
+      align-items: center;
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      }
+.sword {width: 1100;margin: auto;
+        padding-top: 300px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;}
+
+.mirror{width: 1100;margin: auto;
+        padding-top: 300px;
+        display: flex;
+        flex-wrap: wrap;justify-content: space-between
+        ;}
+
+
+
+.resize{width: 765px;height: 545px;}
+
+.blink {z-index: -5;display: flex;justify-content: center;}
+.blinkimage{width: 90%;height: 90%;margin: auto;}
+
+#com1 {
+  display: flex; 
+  justify-content: center;
+margin: auto;padding-top: 84px;}
+
+.composition1{width: 1100;height: auto;}
+
+.a6 {font-family: Pretendard-Bold;
+     font-size: 28px;
+    }
+
+.a5{font-family: Ownglyph_meetme-Rg;
+  font-size: 32px;
+  line-height: 52px;
+  margin-top: 0;align-items: flex-end;
+  flex-flow: row nowrap;
+  display: flex;}
+
+  .what2{display: flex;justify-content: center;padding-top: 28px;}
+
+  .tr1c{width: 219px;
+        height:267px;}
+        
+  .conalign{display: flex;
+            flex-direction: column;
+            justify-content: space-between;}
+
+.text1 {display: flex;
+        justify-content: center;
+        padding-top: 30px;
+        font-family:Ownglyph_meetme-Rg;
+        font-size: 22px;}
+
+.conalign2{display: flex;
+            flex-direction: column;
+            justify-content: space-between;}
+
+.explode {width: 1100;margin: auto;
+        padding-top: 300px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;}
+
+.conalign3 {display: flex;
+            flex-direction: column;
+            justify-content: space-between;}
+
+.conalign5 {display: flex;
+  flex-direction: column;
+  width: 1100px;
+  justify-content: center;
+  align-items: center;
+  }
+            
+.second{top: 5932px;
+left: 0px;
+width: 100%;
+height: 3339px;
+background: transparent linear-gradient(180deg, #FFFFFF 0%, #FFF7F9FA 16%, #FBCDDE 45%, #FFE3EC 81%, #FFFFFF 100%) 0% 0% no-repeat padding-box;
+opacity: 1; padding-top: 100px;
+justify-content: center;
+display: flex;
+margin: auto;}
+
+.conalign4{display: flex;
+  justify-content: center;
+  flex-direction: column
+  ;width: 1100px;
+align-items: center;}
+
+
+.conalignfix {width: 803px;}
+
+.spacea2 {padding-top: 60px;}
+
+.thirdp {display: flex;
+  justify-content: center;
+  flex-direction: column
+  ;width: 1100px;
+align-items: center;
+margin: auto;}
+
+.forth{
+    width: 100%;
+    background: transparent linear-gradient(180deg, #FFFFFF 0%, #FFF7F9FA 16%, #FBCDDE 45%, #FFE3EC 81%, #FFFFFF 100%) 0% 0% no-repeat padding-box;
+    justify-content: start;
+    display: flex;
+    margin: 0;
+    padding-top: 500px;
+    flex-direction: column;
+    align-items: center;}
+
+.confix2 {height: 86px;width: 803px;}
+
+.spacing1{padding-top: 100px; padding-bottom: 150px;}
+
+.conalign5 p {background-color:#FF4578 ;
+  font-family: Ownglyph_meetme-Rg;
+  font-size: 32px;color: white;
+  text-align: center;
+  line-height: 52px;display: inline-block; width: 1100px;
+  margin-top: 20px;}
+
+.fifth{display: flex; 
+  flex-direction: column;
+  width: 1100px;
+  justify-content: center;align-content: center;
+  margin: auto;
+  padding-top: 500px;}
+
+.resize2{width: 803px;height: 86px;margin: auto;}
+
+.sixth{width: 100%;
+    background: transparent linear-gradient(180deg, #FFFFFF 0%, #FFF7F9FA 16%, #FBCDDE 45%, #FFE3EC 81%, #FFFFFF 100%) 0% 0% no-repeat padding-box;
+    justify-content: start;
+    display: flex;
+    margin: 0;
+    padding-top: 500px;
+    flex-direction: column;
+    align-items: center}
+
+  .resize3 {width: 1564px;}
+
+
+.foot{background-color:#FF376E ; 
+  height: 224px;
+  width: 100%;
+display: flex;
+flex-direction: column;
+padding-top: 64px;
+padding-left: 50px ;}
+
+.resizing {height: 36px; display: flex; gap: 8px;
+padding-bottom: 12px;}
+
+.resizing2{height: 21px;}
+
+.resizing3{height: 21px;}
+
+.k1{display: flex;}
+
+.resizing{font-family: Pretendard-Bold;
+  font-size: 32px;
+color: white;}
+
+
+.bread {font-family: Pretendard-Bold;
+  padding-top: 24px;
+color: white;}
+
+.k1 p {width: 110px;
+  padding-bottom: 12px;
+  height: 8px;
+  padding-top: 6px;font-family: Pretendard-Medium;
+color: white;}
+
+#resizzzzing {height: 100%;}
+
+
+
+
+
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Pretendard-Medium';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pretendard-SemiBold';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pretendard-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pretendard-ExtraBold';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-ExtraBold.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Ownglyph_meetme-Rg';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2402_1@1.0/Ownglyph_meetme-Rg.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+
+  }
